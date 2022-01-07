@@ -1,5 +1,6 @@
 import React from 'react';
 import { Wrapper, Content } from './Card.styles';
+import LocationIcon from './icon.svg';
 
 const Card = ({ item }) => {
   console.log(item);
@@ -19,7 +20,10 @@ const Card = ({ item }) => {
         <div>
           <div className='main-info'>
             <p className='location-info'>
-              <span className='country-info'>{location} </span>
+              <span className='country-info'>
+                <img className='icon' src={LocationIcon} alt='location-icon' />
+                {location}{' '}
+              </span>
               <span className='country-link'>
                 <a href={googleMaps} target='_blank' rel='noreferrer'>
                   View on Google Maps
