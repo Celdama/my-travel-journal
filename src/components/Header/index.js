@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Wrapper>
       <Content>
-        <img src={Logo} alt='world-logo' />
+        {/* <img src={Logo} alt='world-logo' /> */}
         <h3>my travel journal.</h3>
       </Content>
     </Wrapper>

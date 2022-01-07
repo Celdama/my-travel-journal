@@ -21,7 +21,7 @@ const Card = ({ item }) => {
           <div className='main-info'>
             <p className='location-info'>
               <span className='country-info'>
-                <img src={placeIcon} className='icon' alt='icon' />
+                {/* <img src={placeIcon} className='icon' alt='icon' /> */}
                 {location}{' '}
               </span>
               <span className='country-link'>
