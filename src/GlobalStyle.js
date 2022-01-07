@@ -6,12 +6,15 @@ export const GlobalStyle = createGlobalStyle`
     --mainBlue: #a8dadc;
     --white: #fff;
     --lightGray: #e9ecef;
+    --darkGray: #918E9B;
     --mainRed: #F55A5A;
+    --black: #2B283A;
+    --dividerGray: #F5F5F5;
   }
 
   * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   body {
@@ -25,5 +28,9 @@ export const GlobalStyle = createGlobalStyle`
     height: 100vh;
     justify-content: center;
     align-items: center;
+  }
+
+  .bold {
+    font-weight: 700;
   }
 `;
