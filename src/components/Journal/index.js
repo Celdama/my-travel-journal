@@ -1,8 +1,12 @@
 import React from 'react';
-import { Wrapper } from './Journal.styles';
+import { Wrapper, Content } from './Journal.styles';
 
 const Journal = () => {
-  return <Wrapper>my journal</Wrapper>;
+  return (
+    <Wrapper>
+      <Content></Content>
+    </Wrapper>
+  );
 };
 
 export default Journal;
