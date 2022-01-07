@@ -3,7 +3,6 @@ import { Wrapper, Content } from './Card.styles';
 import LocationIcon from './icon.svg';
 
 const Card = ({ item }) => {
-  console.log(item);
   const {
     title,
     location,

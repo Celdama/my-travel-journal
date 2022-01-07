@@ -21,6 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     background-color: var(--mainBlue);
+    width: 100vw;
   }
 
   .App {
